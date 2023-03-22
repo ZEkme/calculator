@@ -18,7 +18,7 @@ func (cal calculator) subtract(num1, num2 float64) float64 {
 
 func (cal calculator) divide(num1, num2 float64) float64 {
 	if num2 == 0 {
-		log.Fatalln("Делить на 0 нельзяя")
+		log.Fatalln("Делить на 0 нельзя")
 		return 0
 	}
 	return num1 / num2
