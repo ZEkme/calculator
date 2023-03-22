@@ -19,7 +19,7 @@ func main() {
 	var oper string // operator
 	fmt.Scanln(&oper)
 	if !isOper(oper) {
-		log.Fatalln("Недопустимая операция")
+		log.Fatalln("Недопустим")
 		return
 	}
 
